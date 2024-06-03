@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* .lay{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(112, 40, 40);
+ 
+}
+.head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(122, 35, 35);
+}
+
+.layout{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(112, 40, 40);
+  background-color: rgb(241, 235, 231);
+  
+}
+
+.box1{
+  display: flex;
+  /* flex-direction: column; */
+   /* align-items: center;
+  justify-content: center;
+  font-size: calc(6px + 2vmin);
+  color: rgb(112, 40, 40);
+  background-color:  rgb(241, 235, 231);
+margin: 30px;
+} */ */
+
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a4168;
+  margin: 0;
+  padding: 0;
+}
+
+.layout {
+  
+  justify-content: center;
+  align-items: center;
+  /* height: 500vh; */
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:#FFF2E1;
+  padding: 30px;
+  font-weight: 600;
+  font-size: large;
+  color:#221818;
+  background-attachment: sticky;
+  
+  background-image: repeating-linear-gradient(#f1cdda,#704c85);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Form Styles */
+.lay {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 400px;
+  width: 100%;
+
+}
+
+.head {
+  color: #b38b8b;
+  margin-top: 0;
+  height: 10px;
+
+}
+
+.box1 {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="radio"],
+input[type="checkbox"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #4b0b0b;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.customCheckBox {
+  position: relative;
+  margin: 0 0 0px 0;
+  text-align: left;
+  width: 100%;
+  display: inline-block;
+  padding-left: 0 !important;
+  padding-right: 0;
+}
